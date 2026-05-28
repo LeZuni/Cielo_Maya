@@ -17,26 +17,26 @@
 }
 
 body {
-  font-family: 'Poppins', 'Open Sans', Arial, sans-serif;
-  font-size: 16px;
-  color: var(--gris-texto);
-  background: var(--gris-fondo);
+    font-family: 'Poppins', 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: var(--gris-texto);
+    background: var(--gris-fondo);
 }
 
 a {
-  text-decoration: none;
-  color: var(--rosa);
+    text-decoration: none;
+    color: var(--rosa);
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
