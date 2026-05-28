@@ -15,3 +15,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+  font-family: 'Poppins', 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: var(--gris-texto);
+  background: var(--gris-fondo);
+}
+
