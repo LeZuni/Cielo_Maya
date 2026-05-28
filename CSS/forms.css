@@ -1,0 +1,110 @@
+.grupo {
+    margin-bottom: 15px;
+}
+
+.grupo label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--gris-texto);
+}
+
+.grupo input[type="text"],
+.grupo input[type="email"],
+.grupo input[type="password"],
+.grupo input[type="tel"],
+.grupo input[type="date"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid var(--gris-borde);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    color: var(--gris-texto);
+    transition: border-color 0.2s;
+}
+
+.grupo input:focus {
+    outline: none;
+    border-color: var(--rosa);
+    background: var(--blanco);
+}
+
+.grupo-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.grupo-checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--rosa);
+}
+
+.grupo-checkbox label {
+    font-size: 0.85rem;
+    color: var(--gris-suave);
+    cursor: pointer;
+}
+
+.btn-primario {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, var(--rosa), var(--azul));
+    color: var(--blanco);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(209, 60, 255, 0.35);
+    transition: transform 0.2s;
+    margin-top: 5px;
+}
+
+.btn-primario:hover {
+    transform: scale(1.02);
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.btn-pequeno {
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--blanco);
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.btn-pequeno:hover {
+    background: rgba(255, 255, 255, 0.35);
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.enlaces-form {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 0.85rem;
+    color: var(--gris-suave);
+    line-height: 2;
+}
+
+.enlaces-form a {
+    font-weight: 600;
+}
