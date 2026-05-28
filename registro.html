@@ -2,46 +2,65 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ACME AIR - Crear Cuenta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME AIR - Crear Cuenta</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/forms.css">
-  <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 
-  <div class="pagina-form">
-    <div class="tarjeta">
+    <div class="pagina-form">
+        <div class="tarjeta">
 
-      <img src="avion_maya.png" alt="Logo ACME AIR" class="logo">
+            <img src="avion_maya.png" alt="Logo ACME AIR" class="logo">
 
-      <h1 class="titulo">Crear cuenta</h1>
-      <p class="subtitulo">Completa tus datos para registrarte</p>
+            <h1 class="titulo">Crear cuenta</h1>
+            <p class="subtitulo">Completa tus datos para registrarte</p>
 
-      <form>
-        <div class="grupo">
-          <label for="nombre">Nombre completo</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ej: Lesli Zuñiga">
+            <form>
+                <div class="grupo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Lesli Zuñiga">
+                </div>
+
+                <div class="grupo">
+                    <label for="identificacion">Identificación</label>
+                    <input type="text" id="identificacion" name="identificacion" placeholder="Número de ID o pasaporte">
+                </div>
+
+                <div class="grupo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="tu@correo.com">
+                </div>
+
+                <div class="grupo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+502 1234 5678">
+                </div>
+                <div class="grupo">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad" placeholder="Ej: Ciudad de Guatemala">
+                </div>
+
+                <a href="crear-contrasena.html" class="btn-primario">Guardar</a>
+
+            </form>
+
+            <div class="enlaces-form">
+                <p>¿Ya tienes cuenta? <a href="index.html">Iniciar sesión</a></p>
+            </div>
+
         </div>
+    </div>
 
-        <div class="grupo">
-          <label for="identificacion">Identificación</label>
-          <input type="text" id="identificacion" name="identificacion" placeholder="Número de ID o pasaporte">
-        </div>
+</body>
 
-        <div class="grupo">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" placeholder="tu@correo.com">
-        </div>
-
-        <div class="grupo">
-          <label for="telefono">Teléfono</label>
-          <input type="tel" id="telefono" name="telefono" placeholder="+502 1234 5678">
-        </div>
+</html>
