@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+
+    .tarjeta {
+        padding: 40px 35px;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .encabezado {
+        padding: 20px 40px;
+    }
+
+    .contenido {
+        padding: 30px 40px;
+    }
+
+    .logo {
+        width: 110px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .tarjeta {
+        max-width: 450px;
+    }
+
+    .contenido {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 35px 20px;
+    }
+
+    .lista-menu {
+        max-width: 500px;
+    }
+
+    .tabla-vuelos th,
+    .tabla-vuelos td {
+        padding: 14px 15px;
+    }
+}
