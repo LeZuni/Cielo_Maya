@@ -43,8 +43,4 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .tabla-vuelos th,
-    .tabla-vuelos td {
-        padding: 14px 15px;
-    }
 }
